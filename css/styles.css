@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.top_container {
+    background-color:#E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    margin: 100px 50px;
+}
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+   
+
+}
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive; 
+    color: #66bfbf;
+
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+}
+p{
+    line-height: 2;
+}
+hr {
+    border: dotted #EAF6F6 6PX;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a {
+   color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+   margin:10px 20px 10px;
+   text-decoration: none;
+}
+a:hover {
+    color:#11999E;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.font-size {
+    font-size: 2.5rem ;
+}
+.coding-img{
+    width: 25%;
+    float: left;
+    margin-right:30px ;
+    border-radius: 20px;
+
+}
+.bike-img{
+    width: 25%;
+    float: right;
+    margin-left:30px;
+    border-radius: 20px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin:40px auto 60px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #146191);
+    background-image: -moz-linear-gradient(top, #3498db, #146191);
+    background-image: -ms-linear-gradient(top, #3498db, #146191);
+    background-image: -o-linear-gradient(top, #3498db, #146191);
+    background-image: linear-gradient(to bottom, #3498db, #146191);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:  'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .avatar{
+      background-image: url(/images/avtar_shiv.png);
+      background-size: contain;
+      border-radius: 50%;
+      border: 10px solid rgb(206, 228, 243);
+  }
